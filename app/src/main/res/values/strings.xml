@@ -1,0 +1,18 @@
+<resources>
+    <string name="coffeeorder">COFFEE ORDER</string>
+    <string name="topping1">Whipped Cream</string>
+    <string name="topping2">Chocolate</string>
+    <string name="name1">Enter your name</string>
+    <string name="fullname">Enter your Full name</string>
+    <string name="app_name">COFFEE CRUNCH</string>
+    <string name="toast_name">Please enter your full name</string>
+    <string name="toast_emailid">Please enter your emailid</string>
+    <string name="toast_quantity">please enter valid quantity</string>
+    <string name="emailid">Enter your email id</string>
+    <string name="password">Enter your password</string>
+    <string name="newuser">New User? SignUp</string>
+    <string name="register">Already Registered? Login</string>
+    <string name="submit">Submit</string>
+    <string name="login_toast">Please enter valid Email id or Password</string>
+
+</resources>

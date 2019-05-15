@@ -1,0 +1,90 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/right">
+
+    <TextView
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/coffeeorder"
+        android:textSize="@dimen/medium_font" />
+    <CheckBox
+        android:buttonTint="@color/white"
+        android:textColor="@color/white"
+        android:id="@+id/checkboxid1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/topping1"
+        android:textSize="@dimen/medium_font"
+        />
+    <CheckBox
+        android:buttonTint="@color/white"
+        android:textColor="@color/white"
+        android:id="@+id/checkboxid2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/topping2"
+        android:textSize="16sp"
+        />
+    <Button
+
+        android:background="@drawable/shape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="+"
+        android:onClick="incrementNum"/>
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/quantity_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="0"
+        android:textSize="16sp"
+        android:layout_margin="8dp"/>
+
+
+    <Button
+        android:background="@drawable/shape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="-"
+        android:onClick="decrementNum"/>
+
+
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/quantity_text_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Amount"
+        android:textSize="16sp"
+        android:layout_margin="8dp"/>
+
+
+    <Button
+        android:id="@+id/main_buttonid"
+        android:background="@drawable/shape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="order"
+        />
+    <Button
+        android:id="@+id/logout_buttonid"
+        android:background="@drawable/shape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Logout"
+        />
+
+</LinearLayout>

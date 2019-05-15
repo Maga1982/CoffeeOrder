@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/right">
+    <EditText
+        android:id="@+id/emailid_login"
+        android:layout_marginTop="@dimen/large"
+        android:layout_marginLeft="@dimen/medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/emailid"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"/>
+    <EditText
+        android:textColor="@color/white"
+        android:id="@+id/passwordid_login"
+        android:layout_marginTop="@dimen/medium"
+        android:layout_marginLeft="@dimen/medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/white"/>
+    <Button
+        android:layout_marginTop="@dimen/medium"
+        android:layout_marginLeft="@dimen/medium"
+        android:background="@drawable/shape"
+        android:id="@+id/buttonid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"/>
+    <TextView
+        android:layout_marginTop="@dimen/medium"
+        android:layout_marginLeft="@dimen/medium"
+        android:textColor="@color/white"
+        android:id="@+id/text_view_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/newuser"
+        />
+
+
+
+</LinearLayout>
